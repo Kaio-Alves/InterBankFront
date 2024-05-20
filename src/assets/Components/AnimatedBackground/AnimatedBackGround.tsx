@@ -18,8 +18,8 @@ const AnimatedBackground = () => {
             src="/public/img/VideointerCard.gif"
             style={{
               position: 'absolute',
-              width: '100%',
-              left: '50%',
+              width: '115%',
+              left: '47%',
               top: '50%',
               height: '100%',
               objectFit: 'cover',
