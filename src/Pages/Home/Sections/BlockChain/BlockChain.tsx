@@ -21,7 +21,7 @@ const Blockchain = () => {
       <StyledBlockChain>
         <Container maxWidth="lg" style={{marginTop:"-110px"}}>
             <Grid container spacing={2}>
-                <Grid item xs={12} md={6}>
+                <Grid item xs={8} md={6}>
                     <Typography variant="h4" style={{marginLeft:"105px",marginTop:"130px"}}>Dados</Typography>
                     <Grid style={{marginTop:"20px",marginLeft:"40px"}}>
                         <TextField id="cpf" label="CPF remetente" variant="outlined" style={{marginBottom:"10px"}}/>
@@ -31,10 +31,10 @@ const Blockchain = () => {
                         <TextField id="valor" label="Valor" variant="outlined" style={{marginBottom:"10px"}}/>
                     </Grid>
                 </Grid>
-                <Grid item xs={12} md={1} style={{marginTop:"330px",marginLeft:"-20px"}}>
+                <Grid item xs={1} md={1} style={{marginTop:"330px",marginLeft:"-20px"}}>
                     <Button style={{marginLeft:"-90px"}}><ForwardIcon/></Button>
                 </Grid>
-                <Grid item xs={12} md={5}>
+                <Grid item xs={4} md={5}>
                     <Grid style={{marginTop:"15px"}}>
                         <Typography variant="h4" style={{marginLeft:"90px",marginTop:"130px"}}>BlockChain</Typography>
                         <Box style={{ border: '2px groove rgba(239, 239, 240)', height:"50vh",marginTop:"20px",marginLeft:"-30px" }}>kaio</Box>
