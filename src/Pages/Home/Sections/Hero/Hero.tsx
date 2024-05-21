@@ -15,7 +15,7 @@ const Hero = () => {
         height: "100vh",
         display: "flex",
         alignItems: "center",
-        backgroundImage: `url("/public/img/VideointerCard.gif")`,
+        backgroundImage: `url("/public/img/VideointerCard.GIF")`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -53,7 +53,7 @@ const Hero = () => {
       <>
       <StyledHero>
         <Container maxWidth="lg" style={{marginTop:"-110px"}}>
-            <Grid item xs={12} md={1}><img src="/public/img/logoInter.png" width={"10%"}  style={{marginLeft:"-40px",marginTop:"-0px"}}/></Grid>
+            <Grid item xs={12} md={1}><img src="/public/img/logoInter.PNG" width={"10%"}  style={{marginLeft:"-40px",marginTop:"-0px"}}/></Grid>
             <Grid container spacing={2} style={{marginTop:"100px"}}>
                 <Grid item xs={12} md={6} style={{display:"block"}}>
                     <Grid><Typography  variant="h1" style={{marginLeft:"30px", fontFamily:"sans-serif",fontSize:"75px"}}>Fácil, rápido</Typography></Grid>
